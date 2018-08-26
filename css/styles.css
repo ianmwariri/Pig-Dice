@@ -1,0 +1,117 @@
+body{
+  background-image: url('../images/pig.png');
+  
+}
+
+#formBody{
+  display: none;
+}
+
+#formAbout{
+  display: none;
+}
+
+#formAbout{
+  display: none;
+}
+
+.jumbotron{
+  border: 1px solid #4CAF50;
+  border-style: groove;
+  text-align: center;
+  background: rgba(190,223,246, 0.5);
+}
+
+.headerH1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: underline;
+}
+
+
+.panel-title{
+  font-size: 19px;
+}
+
+
+.divBtnPlay{
+ text-align: center;
+}
+
+.divBtnAbout{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#startBtn{
+  font-size: 30px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#startBtn:hover{
+  background-color:#32B232;
+  
+}
+
+#aboutBtn{
+  font-size: 25px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#aboutBtn:hover{
+  background-color:#32B232;
+}
+
+label{
+  font-size: 17px;
+}
+
+.usernameTxtClass{
+  font-size: 17px;
+}
+
+#btnPlay{
+  font-size: 20px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#btnPlay:hover{
+ background-color:#32B232;
+}
+
+#btnClose{
+  font-size: 15px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
+}
+
+#btnClose:hover{
+ background-color:#32B232; 
+}
+
+p{
+  font-size: 16px;
+}
+
+.h3Title{
+  text-decoration: underline
+}
+
+.listClass{
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.headerH2{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
