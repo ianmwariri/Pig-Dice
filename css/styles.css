@@ -145,24 +145,24 @@ p{
 
 #hold1{
 font-size: 15px;
-  background-color: greenyellow;
+  background-color:	#00BFFF; 
   border-radius: 8px;
-  border: 2px solid #4CAF50;
+  border: 2px solid	#00CED1;
   color: black;
 }
 
 #hold1:hover{
-  background-color:#32B232;
+  background-color:		#00CED1;
 }
 
 #hold2{
 font-size: 15px;
-  background-color: greenyellow;
+  background-color: #00BFFF;
   border-radius: 8px;
-  border: 2px solid #4CAF50;
+  border: 2px solid	#00CED1;
   color: black;
 }
 
 #hold2:hover{
-  background-color:#32B232;
+  background-color:	#00CED1;
 }

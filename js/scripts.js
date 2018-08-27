@@ -114,6 +114,7 @@ $(document).ready(function() {
   $("#startBtn").click(function() {
     $("#formBody").show();
     $("#formAbout").hide();
+    event.preventDefault();
   });
 
   $("#aboutBtn").click(function() {
