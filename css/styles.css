@@ -1,6 +1,5 @@
 body{
   background-image: url('../images/pig.png');
-  
 }
 
 #formBody{
@@ -126,4 +125,44 @@ p{
   border-radius: 8px;
   border: 2px solid #4CAF50;
   color: black;
+}
+
+#roll1:hover{
+  background-color:#32B232;
+}
+
+#roll2{
+  font-size: 15px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
+  color: black;
+}
+
+#roll2:hover{
+  background-color:#32B232;
+}
+
+#hold1{
+font-size: 15px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
+  color: black;
+}
+
+#hold1:hover{
+  background-color:#32B232;
+}
+
+#hold2{
+font-size: 15px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 2px solid #4CAF50;
+  color: black;
+}
+
+#hold2:hover{
+  background-color:#32B232;
 }
