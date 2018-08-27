@@ -3,9 +3,12 @@
 
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Pig Dice</title>
 </head>
@@ -38,29 +41,23 @@
             <div class="form-group">
               <label for="username">Player 1:</label>
               <div class="textBoxDiv">
-                <input type="text" class="usernameTxtClass" name="player1UserName" placeholder="username">
+                <input type="text" id="user1" class="usernameTxtClass" name="player1UserName" placeholder="username">
               </div>
             </div>
 
             <div class="form-group">
               <label for="username">Player 2:</label>
               <div class="textBoxDiv">
-                <input type="text" class="usernameTxtClass" name="player2UserName" placeholder="username">
+                <input type="text" id="user2" class="usernameTxtClass" name="player2UserName" placeholder="username">
               </div>
             </div>
 
-            <button id="btnPlay" onclick="playGame();">
-              <strong>Play</strong>
-            </button>
+            <button type="submit" id="btnPlay">Play</button>
 
           </form>
         </div>
       </div>
     </div>
-
-
-
-
 
 
     <div id="formAbout">
@@ -87,19 +84,66 @@
             </ol>
 
             <p>The first player to score 100 or more points wins.</p>
-            <p>For example, the first player, Anne, begins a turn with a roll of 5. Anne could hold and score 5 points, but chooses to roll
-              again. Anne rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Anne rolls a 1, and must
-              end her turn without scoring. The next player, Bob, rolls the sequence 4-5-3-5-5, after which he chooses to hold, and adds
-              his turn total of 22 points to his score.</p>
+            <p>For example, the first player, Anne, begins a turn with a roll of 5. Anne could hold and score 5 points, but
+              chooses to roll again. Anne rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again.
+              Anne rolls a 1, and must end her turn without scoring. The next player, Bob, rolls the sequence 4-5-3-5-5,
+              after which he chooses to hold, and adds his turn total of 22 points to his score.</p>
 
-              <button aria-label="Close Account Info Modal Box" id="btnClose">Close</button>
-              
+            <button aria-label="Close Account Info Modal Box" id="btnClose">Close</button>
+
           </form>
         </div>
       </div>
     </div>
 
+    <div id="gameScreen">
+      <div class="row">
+        <div id="player1">
 
+          <div class="col-md-6">
+            <div class="well" id="well1">
+              <h3 id="Player1"></h3>
+              <p>Current Dice Value:
+                <br>
+                <span id="currentDiceValue1"></span>
+              </p>
+              <p>Cummulative Score:
+                <br>
+                <span id="cummulativeScoreValue1"></span>
+              </p>
+              <p>Total Score:
+                <br>
+                <span id="totalScore1"></span>
+              </p>
+              <button type: "submit" id="roll1" class="btn btn-success btn-lg">Roll</button>
+              <button type: "submit" id="hold1" class="btn btn-info btn-lg">Hold</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="player2">
+          <div class="col-md-6">
+            <div class="well" id="well2">
+              <h3 id="Player2"></h3>
+              <p>Current Dice Value:
+                <br>
+                <span id="currentDiceValue2"></span>
+              </p>
+              <p>Cummulative Score:
+                <br>
+                <span id="cummulativeScoreValue2"></span>
+              </p>
+              <p>Total Score:
+                <br>
+                <span id="totalScore2"></span>
+              </p>
+              <button type="submit" id="roll2" class="btn btn-success btn-lg">Roll</button>
+              <button type="submit" id="hold2" class="btn btn-info btn-lg">Hold</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 
