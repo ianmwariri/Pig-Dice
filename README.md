@@ -71,7 +71,7 @@ However, that is subject to Review in due time.
 
 ## LIVE DEMO
 
-To view the LIVE SITE, Click Here: https://smokeyice.github.io/QuizBoard/
+To view the LIVE SITE, Click Here: https://smokeyice.github.io/Pig-Dice/
 
 ## SUPPORT AND CONTACT DETAILS
 
